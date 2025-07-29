@@ -51,4 +51,4 @@ jobs:
                   run: |
                     echo "Starting deployment..."
                     # Replace the echo with actual deployment commands, for example:
-                    # git@github.com:Samkelo-Dev/ci-cd-pipeline-getting-started.git "cd /path/to/project && systemctl restart your-service"
+                    # ssh user@your-server "cd /path/to/project && systemctl restart your-service"
